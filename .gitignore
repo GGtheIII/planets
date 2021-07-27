@@ -1,2 +1,3 @@
-*dat
-results/plots
+*dat                    # ignore dat files in main folder
+results/*               # ignore everything in results folder
+!results/data/          # do not ignore results/data/ contents
